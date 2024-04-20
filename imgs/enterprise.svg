@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <circle id="b" cx="62" cy="62" r="62"/>
+    <filter id="a" width="111.3%" height="111.3%" x="-5.6%" y="-4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+    </filter>
+    <linearGradient id="c" x1="50%" x2="50%" y1="59.05%" y2="77.028%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFF" xlink:href="#b"/>
+    <g transform="translate(26 12)">
+      <polyline fill="url(#c)" points="32.155 97 0 78.649 .001 77.775 0 60.301 18.064 49.811 18.25 49.811 18.25 25.35 36.313 14.856 54.75 25.342 54.75 62.55 54.84 62.55 72.445 72.535 72.454 75.163 33.024 97"/>
+      <path stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" d="M36.0654762,35.8288288 L36.0654762,94.898945"/>
+      <path stroke="#CEC2DB" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" d="M39.5416667 38.4504505L39.5416667 92.2773234M58.2261905 78.6486486L58.2261905 84.7657658"/>
+      <polyline stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" points="18.25 71.951 18.25 25.35 36.313 14.856 54.75 25.342 54.75 65.541"/>
+      <polyline stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" points="54.84 62.55 72.445 72.535 72.454 81.28"/>
+      <polyline stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" points=".001 83.892 0 60.301 18.064 49.811"/>
+      <polyline stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" points="18.25 25.343 36.313 35.83 54.377 25.342"/>
+      <path stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" d="M54.75,65.0344788 L54.75,87.3873874"/>
+      <path fill="#F1ECF3" stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" d="M18.4855119,72.5315315 C15.475131,72.5315315 13.0357143,74.9853694 13.0357143,78.0115946 C13.0357143,81.0369459 15.475131,83.4916577 18.4855119,83.4916577 C21.4950238,83.4916577 23.9353095,81.0369459 23.9353095,78.0115946 C23.9353095,74.9853694 21.4950238,72.5315315 18.4855119,72.5315315 Z"/>
+      <path stroke="#7A589E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" d="M36.0654762,22.7233423 L36.0654762,-1.24344979e-13"/>
+    </g>
+  </g>
+</svg>
